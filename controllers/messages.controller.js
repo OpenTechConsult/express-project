@@ -1,7 +1,7 @@
 const path = require('path')
 
 function getMessages(req, res) {
-    res.sendFile(path.join(__dirname, '..', 'public', 'IMG_5199.PNG'))
+    res.sendFile(path.join(__dirname, '..', 'public', 'images', 'jhipster-logo.png'))
     // res.send('<ul><li>Hello Albert!</li></ul>')
 }
 
